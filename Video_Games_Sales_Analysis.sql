@@ -1,4 +1,4 @@
--- Final project SQL module Naya College
+-- Final project SQL Analysing Video Games Sales
 --
 
 
