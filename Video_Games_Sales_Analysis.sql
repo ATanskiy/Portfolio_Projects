@@ -106,7 +106,8 @@ WHERE Year_of_Release IS NOT NULL AND Year_of_Release <> 2020)
 ,
 c
 AS
---Getting another table with Global_Sales with the rest of the coloumns with help of which we are connecting Global_Sales to the final full table (where some years were missing)
+/*Getting another table with Global_Sales with the rest of the coloumns with help of which we are connecting Global_Sales to the final full table 
+(where some years were missing)*/
 (SELECT SUM(Global_Sales) AS Global_Sales
 , Genre
 , Platform
